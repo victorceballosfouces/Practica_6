@@ -35,6 +35,7 @@ void loop()
 
 ## Funcionamiento
 Cabe mencionar el uso de las librerías SPI.h y SD.h . A continuación, creamos un objeto tipo File llamado myFile, que será el fichero que se encontrara dentro de la SD y nos permitirá acceder a su interior.
+
 Dentro ya del setup imprimimos por pantalla que se está iniciando la SD. Ahora inicializamos el bus SPI con la función SPI.begin(). Inicializamos también la clase SD con la función SD.begin(), que nos permite ver si ha habido algún error durante el proceso y de esta manera finalmente poder buscar con un if dentro de la SD un “archivo.txt” que posteriormente se abrirá y leerá.
 ## Codigo_6.2_MFRC22
 ```cpp
