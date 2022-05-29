@@ -8,6 +8,7 @@ void setup()
 {
   Serial.begin(115200);
   Serial.print("Iniciando SD ...");
+  SPI.begin();
   if (!SD.begin(4)) {
     Serial.println("No se pudo inicializar");
     return;
