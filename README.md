@@ -1,6 +1,6 @@
 # Practica_6
 ## Codigo_6.1_SD
-```
+```cpp
 #include <SPI.h>
 #include <SD.h>
 File myFile;
@@ -37,7 +37,7 @@ void loop()
 Cabe mencionar el uso de las librerías SPI.h y SD.h . A continuación, creamos un objeto tipo File llamado myFile, que será el fichero que se encontrara dentro de la SD y nos permitirá acceder a su interior.
 Dentro ya del setup imprimimos por pantalla que se está iniciando la SD. Ahora inicializamos el bus SPI con la función SPI.begin(), que también nos permite ver si ha habido algún error durante el proceso. Finalmente inicializamos también la clase SD con la función SD.begin() y de esta manera poder buscar con un if dentro de la SD un “archivo.txt” que posteriormente se abrirá y leerá.
 ## Codigo_6.2_MFRC22
-```
+```cpp
 //Libraries
 #include <SPI.h>//https://www.arduino.cc/en/reference/SPI
 #include <MFRC522.h>//https://github.com/miguelbalboa/rfid
