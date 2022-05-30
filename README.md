@@ -128,3 +128,4 @@ void printDec(byte *buffer, byte bufferSize) {
 ```
 
 ## Funcionamiento
+Video adjunto en la carpeta del apartado 6.2.
